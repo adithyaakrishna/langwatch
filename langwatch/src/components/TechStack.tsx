@@ -297,7 +297,7 @@ export const ProjectTechStackIcon = ({ project }: { project: Project }) => {
 
   return (
     <HStack spacing={0}>
-      <Box marginRight="-6px">
+      <Box marginRight="6px">
         <IconWrapper>{language.icon}</IconWrapper>
       </Box>
       <IconWrapper>{framework.icon}</IconWrapper>
